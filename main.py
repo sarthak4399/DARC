@@ -30,7 +30,7 @@ def crawl(url):
                     links.append(href)
                 elif href.startswith('/'):
                     links.append(urljoin(url, href))
-            links = list(set(links))  # Remove duplicates and normalize
+            links = list(set(links))
             return links
         else:
             logging.warning(f"Request to {url} failed or was blocked.")
@@ -75,7 +75,8 @@ def main():
     try:
         with open(urls_file, 'r') as file:
             urls = [url.strip() for url in file.readlines() if url.strip()]
-
+        logging.info(f"Found {len(urls)} URLs in {urls_file}")
+        logging.info("")
         for url in urls:
             logging.info(f"Processing URL: {url}")
             links = crawl(url)
