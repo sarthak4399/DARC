@@ -92,12 +92,11 @@ def main():
                         response.raise_for_status()
                         if check_request(response):
                             html_content = response.content
-                            # Process data here if needed
-                            # extracted_keywords = process_data(html_content, keywords, output_file)
-                            # if extracted_keywords:
-                            #     logging.info(f"Extracted Keywords for {link}: {extracted_keywords}")
-                            # else:
-                            #     logging.info(f"No keywords extracted from {link}")
+                            extracted_keywords = process_data(html_content, output_file)
+                            if extracted_keywords:
+                                logging.info(f"Extracted Keywords for {link}: {extracted_keywords}")
+                            else:
+                                logging.info(f"No keywords extracted from {link}")
                             logging.info(f"Successfully retrieved {link}")
                         else:
                             logging.warning(f"Request to {link} failed or was blocked.")

@@ -24,7 +24,7 @@ def inner(text):
 
     knn=KNeighborsClassifier(n_neighbors=5)
     knn.fit(X_train, y_train)
-
+    
     new_data=pd.read_excel('new_scraped_data2.xlsx')
     new_X=t.transform(new_data['text'])
 

@@ -43,7 +43,7 @@ try:
             #
             for k in data:
                 k = k.replace("\n","")
-                # k = "http://" + k
+                k = "http://" + k
                 torSearcher(k)
         except Exception as E:
             print(E)
