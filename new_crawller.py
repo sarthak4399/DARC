@@ -25,7 +25,7 @@ def Scraper():
         
         regexquery = "\w+\.onion"
         mineddata = re.findall(regexquery, content)
-        filename = "url.txt".format(str(n))
+        filename = "url.txt"
         print("Saving to ... ", filename)
         mineddata = list(dict.fromkeys(mineddata))
         
