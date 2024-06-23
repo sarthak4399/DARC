@@ -37,11 +37,11 @@ You can install the required Python packages using:
 
 ```sh
 pip install -r requirements.txt
+```
 
 
 
-
-- **Credits** 
+## Credits
 This project is developed and maintained by Team DARC. Special thanks to all the contributors for their efforts and dedication to making this project a success.
 
 
