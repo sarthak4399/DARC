@@ -45,9 +45,11 @@ pip install -r requirements.txt
 This project is developed and maintained by Team DARC. Special thanks to all the contributors for their efforts and dedication to making this project a success.
 
 ### Team DARC
-- [@johnsmith](https://github.com/johnsmith)
-- [@janedoe](https://github.com/janedoe)
-- [@alicewonder](https://github.com/alicewonder)
+- [Chanpreet Kaur](https://github.com/Chanpreetkaur20)
+- [Sahiba Sethi](https://github.com/sahibakaursethi)
+- [Sarthak Khandare](https://github.com/sarthak4399)
+- [Harsh Murjani](https://github.com/hm05)
+
 
 
 Feel free to modify the wording or add more detailed acknowledgments as necessary to suit your team's preferences.
