@@ -1,0 +1,446 @@
+Text Content
+"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Tor Project | Download
+
+
+
+
+
+
+
+Tor Logo
+
+Donate Now
+
+
+        Menu 
+
+
+
+
+
+
+
+
+              
+            
+            About
+              
+            
+
+
+
+              
+            
+            Support
+              
+            
+
+
+
+              
+            
+            Community
+              
+            
+
+
+
+              
+            
+            Blog
+              
+            
+
+
+
+              
+            
+            Donate
+              
+            
+
+
+
+
+
+
+          
+          English (en)
+          
+
+العربية (ar)
+беларуская (be)
+Català (ca)
+Deutsch (de)
+Ελληνικά (el)
+Español (es)
+فارسی (fa)
+Français (fr)
+Magyar nyelv (hu)
+Íslenska (is)
+Italiano (it)
+日本語 (ja)
+ქართული (ka)
+ភាសាខ្មែរ (km)
+한국어(ko)
+Português Brasil (pt-BR)
+Русский (ru)
+Shqip (sq)
+Kiswahili (sw)
+türkmençe (tk)
+Türkçe (tr)
+Tiếng Việt (vi)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+
+
+
+
+        
+          Download Tor Browser
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download Tor Browser
+
+
+Protect yourself against tracking, surveillance, and censorship.
+
+
+
+
+
+
+
+
+Download for Windows
+Signature
+
+
+
+
+
+
+
+
+
+Download for macOS
+Signature
+
+
+
+
+
+
+
+
+
+Download for Linux
+Signature
+
+
+
+
+
+
+
+
+Download for Android
+
+
+
+
+Download for another platform
+Download the latest alpha build
+Download Tor
+
+
+Read the latest release announcements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get connected
+
+If you are in a country where Tor is blocked, you can configure Tor to connect to a bridge during the setup process. 
+
+
+If Tor is not censored, one of the most common reasons Tor won't connect is an incorrect system clock. Please make sure it's set correctly.
+Read other FAQ's at our Support Portal
+
+
+
+
+
+
+Stay safe
+
+Please do not torrent over Tor. 
+           Tor Browser will block browser plugins such as Flash, RealPlayer, QuickTime, and others: they can be manipulated into revealing your IP address.
+
+
+We do not recommend installing additional add-ons or plugins into Tor Browser
+Plugins or addons may bypass Tor or compromise your privacy. Tor Browser already comes with HTTPS-Only mode, NoScript, and other patches to protect your privacy and security.
+
+
+
+
+
+
+
+
+
+
+
+Check out the 
+Tor Browser manual
+ for more troubleshooting tips.
+
+
+
+
+
+
+
+
+What languages does Tor Browser support?
+
+
+
+
+
+
+
+
+How can I verify Tor Browser signature?
+
+
+
+
+Stand up for privacy and freedom online.
+We're a nonprofit organization and rely on supporters like you to help us keep Tor robust and secure for millions of people worldwide.
+Donate Now
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Get Tor Browser for Android.
+
+
+Protect yourself against tracking, surveillance, and censorship.
+
+
+
+Download .apk  aarch64
+Sig
+Download .apk  arm
+Sig
+Download .apk  x86_64
+Sig
+Download .apk  x86
+Sig
+Go to Google Play
+Go to F-Droid
+
+
+
+
+
+
+
+
+Are you an iOS user? We encourage you to try Onion Browser. 
+
+
+
+
+
+
+
+Our mission:
+To advance human rights and freedoms by creating and deploying free and open source anonymity and privacy technologies, supporting their unrestricted availability and use, and furthering their scientific and popular understanding.
+
+
+
+
+
+            
+          
+              Jobs
+              
+            
+
+
+
+            
+          
+              Blog
+              
+            
+
+
+
+            
+          
+              Contact
+              
+            
+
+
+
+            
+          
+              Press
+              
+            
+
+
+
+            
+          
+              PrivChat
+              
+            
+
+
+Donate Now
+
+
+
+
+
+
+SUBSCRIBE TO OUR NEWSLETTER
+Get monthly updates and opportunities from the Tor Project:
+SIGN UP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Trademark, copyright notices, and rules for use by third parties can be found in our 
+  FAQ
+.
+
+
+
+
+            English (en)
+      	  
+
+العربية (ar)
+беларуская (be)
+Català (ca)
+Deutsch (de)
+Ελληνικά (el)
+Español (es)
+فارسی (fa)
+Français (fr)
+Magyar nyelv (hu)
+Íslenska (is)
+Italiano (it)
+日本語 (ja)
+ქართული (ka)
+ភាសាខ្មែរ (km)
+한국어(ko)
+Português Brasil (pt-BR)
+Русский (ru)
+Shqip (sq)
+Kiswahili (sw)
+türkmençe (tk)
+Türkçe (tr)
+Tiếng Việt (vi)
+简体中文 (zh-CN)
+正體中文 (zh-TW)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"

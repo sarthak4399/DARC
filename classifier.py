@@ -5,7 +5,39 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 import openpyxl
-import os
+
+def inner(text):
+    def extraction1(text):
+        elements={
+            'emails': re.findall(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b', text),
+            'hashes': re.findall(r'\b[0-9a-fA-F]{32,64}\b', text),
+            'links': re.findall(r'\bhttps?://[^\s<>"]+|www\.[^\s<>"]+\.onion\b', text),
+            'passwords': re.findall(r'\b(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[A-Za-z\d@$!%*?&]{8,}\b', text),
+            'usernames': re.findall(r'\b[A-Za-z0-9._-]{3,}\b', text)
+        }
+        return elements
+
+    t=TfidfVectorizer(stop_words='english')
+    X=t.fit_transform(data['text'])
+    y=data['category']
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+    knn=KNeighborsClassifier(n_neighbors=5)
+    knn.fit(X_train, y_train)
+
+    new_data=pd.read_excel('new_scraped_data2.xlsx')
+    new_X=t.transform(new_data['text'])
+
+    predictions=knn.predict(new_X)
+    new_data['category']=predictions
+
+    elements=new_data['text'].apply(extraction1)
+    new_data=new_data.join(pd.json_normalize(elements))
+
+    output_columns=['text', 'category', 'emails', 'hashes', 'links', 'passwords', 'usernames']
+    new_data.to_excel('categorized_output_data2.xlsx', columns=output_columns, index=False)
+    a=pd.read_excel("categorized_output_data2.xlsx")
+    print(a.head())
 
 df=pd.read_excel("dark_web_crawler_synthetic_data.xlsx")
 print(df.head())
